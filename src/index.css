@@ -109,9 +109,11 @@ header {
   justify-content: space-between;
   padding: 15px;
   margin-bottom: 70px;
+  margin: 0 auto;
   background-color: #ffffff;
   border-radius: 5px;
   box-shadow: var(--box-shadow);
+  width: 70rem;
 }
 
 header .logo {
@@ -192,6 +194,7 @@ header .themeSelector .activeTheme {
   background-color: #ffffff;
   margin: 20px auto;
   box-shadow: var(--box-shadow);
+  width: 70rem;
 }
 
 .showTask p.head {
@@ -203,6 +206,7 @@ header .themeSelector .activeTheme {
 
 .showTask p.head span:first-child {
   flex-grow: 1;
+  display: inline;
 }
 
 .showTask .title {
@@ -226,6 +230,7 @@ header .themeSelector .activeTheme {
   padding: 5px 10px;
   border-radius: 5px;
   cursor: pointer;
+  border: none;
 }
 
 .showTask .clearAll:hover {
